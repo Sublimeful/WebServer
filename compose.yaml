@@ -1,0 +1,16 @@
+services:
+  nginx:
+    image: nginx
+    container_name: nginx
+    volumes:
+      - nginx_conf.d:/etc/nginx/conf.d
+    ports:
+      - 80:80
+      - 443:443
+    restart: unless-stopped
+    depends_on:
+      - sublimeful
+  sublimeful:
+    container_name: sublimeful
+    build: sublimeful
+    restart: unless-stopped
