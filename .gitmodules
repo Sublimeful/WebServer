@@ -1,4 +1,3 @@
-[submodule "sublimeful"]
-	path = sublimeful
+[submodule "Sublimeful"]
+	path = Sublimeful
 	url = git@github.com:Sublimeful/Website-Sublimeful.git
-	branch = main

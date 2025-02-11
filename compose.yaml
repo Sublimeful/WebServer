@@ -9,6 +9,6 @@ services:
       - 443:443
     restart: unless-stopped
   sublimeful:
-    container_name: sublimeful
-    build: sublimeful
+    container_name: Sublimeful
+    build: Sublimeful
     restart: unless-stopped
