@@ -12,3 +12,7 @@ services:
     container_name: Sublimeful
     build: Sublimeful
     restart: unless-stopped
+  yourgrave:
+    container_name: YourGrave
+    build: YourGrave
+    restart: unless-stopped
