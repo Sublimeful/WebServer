@@ -1,6 +1,3 @@
 [submodule "Sublimeful"]
 	path = Sublimeful
 	url = git@github.com:Sublimeful/Website-Sublimeful.git
-[submodule "YourGrave"]
-	path = YourGrave
-	url = git@github.com:Sublimeful/Website-YourGrave.git
