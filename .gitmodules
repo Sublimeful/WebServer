@@ -1,3 +1,6 @@
 [submodule "Sublimeful"]
 	path = Sublimeful
 	url = git@github.com:Sublimeful/Website-Sublimeful.git
+[submodule "InterviewAI"]
+	path = InterviewAI
+	url = git@github.com:Sublimeful/InterviewAI.git
