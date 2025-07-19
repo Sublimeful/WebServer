@@ -15,8 +15,14 @@ services:
   interviewai-redis:
     image: redis:latest
     container_name: InterviewAI-redis
+    restart: unless-stopped
   interviewai:
     container_name: InterviewAI
     build: InterviewAI
     depends_on:
       - interviewai-redis
+    restart: unless-stopped
+  unravel:
+    container_name: UnRavel
+    build: UnRavel
+    restart: unless-stopped

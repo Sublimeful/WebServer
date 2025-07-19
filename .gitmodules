@@ -4,3 +4,6 @@
 [submodule "InterviewAI"]
 	path = InterviewAI
 	url = git@github.com:Sublimeful/InterviewAI.git
+[submodule "UnRavel"]
+	path = UnRavel
+	url = git@github.com:Sublimeful/UnRavel.git
